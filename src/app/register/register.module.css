@@ -1,0 +1,7 @@
+.password_show_btn {
+    position: absolute;
+    z-index: 999;
+    top: 3px;
+    right: 10px;
+    font-size: 20px;
+}

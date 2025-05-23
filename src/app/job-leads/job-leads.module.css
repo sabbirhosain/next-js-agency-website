@@ -1,0 +1,55 @@
+.job_leads {
+    background-color: #fdfdfd;
+    padding: 80px 0;
+}
+
+.customize_package_box {
+    padding: 30px 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.coustome_package_text {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--primary-fonts);
+    margin: 0;
+    padding: 0;
+}
+
+.form_lable {
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: var(--primary-fonts);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.form_control:focus,
+.form_select:focus {
+    box-shadow: none;
+}
+
+.order_summary_title {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--primary-fonts);
+}
+
+.order_summary_details {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--primary-fonts);
+}
+
+.customize_package_btn {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--primary-fonts);
+    letter-spacing: 1px;
+}

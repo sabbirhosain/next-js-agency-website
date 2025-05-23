@@ -1,0 +1,146 @@
+.tools_details_section {
+    margin-bottom: 80px;
+    background-color: #fdfdfd;
+}
+
+.tools_details_bg {
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/tools-image/package.png');
+}
+
+.section_tagline {
+    color: black;
+    font-size: 18px;
+    letter-spacing: 400;
+    font-family: var(--secondary-fonts);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tools_details_text {
+    color: black;
+    font-size: 15px;
+    letter-spacing: 300;
+    font-family: var(--primary-fonts);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.tools_details_features {
+    color: black;
+    font-size: 15px;
+    letter-spacing: 300;
+    font-family: var(--primary-fonts);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 2px 0;
+}
+
+.section_tagline_icon {
+    color: var(--secondary-color);
+    font-size: 20px;
+}
+
+.customize_package_box {
+    padding: 20px 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.order_summary_title {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--primary-fonts);
+    margin: 0;
+    padding: 0 0 10px 0;
+    display: block;
+}
+
+.form_lable {
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: var(--primary-fonts);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.form_control::placeholder,
+.form_select,
+.order_summary_details {
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: var(--primary-fonts);
+}
+
+.form_control:focus,
+.form_select:focus {
+    box-shadow: none;
+}
+
+.tools_reviews {
+    padding: 30px;
+    background-color: #f1f1f1;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    border-radius: 10px;
+    margin: 50px 0;
+}
+
+.client_reviews_title {
+    color: var(--primary-color);
+    font-size: 18px;
+    letter-spacing: 400;
+    font-family: var(--secondary-fonts);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+.tools_reviews_reating {
+    font-size: 50px;
+    letter-spacing: 400;
+    font-family: var(--secondary-fonts);
+    padding: 0;
+    margin: 0;
+}
+
+.tools_reviews_star {
+    color: orange;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.tools_total_reviews {
+    color: black;
+    font-size: 14px;
+    font-family: var(--primary-fonts);
+    padding: 0;
+    margin: 0;
+}
+
+.tools_review_progress {
+    height: 10px;
+    background-color: white;
+}
+
+.tools_review_progress_bar {
+    background-color: var(--primary-color);
+}

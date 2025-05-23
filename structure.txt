@@ -1,0 +1,37 @@
+src/
+├── app/
+│   ├── about/
+│   │   ├── page.js
+│   │   └── about.module.css 
+│
+│   ├── service/
+│   │   ├── page.js
+│   │   └── service.module.css
+│
+│   ├── project/
+│   │   ├── [slug]/
+│   │   │   ├── page.js            
+│   │   │   └── details.module.css
+│   │   ├── page.js                 
+│   │   └── project.module.css
+│
+│   ├── contact/
+│   │   ├── page.js
+│   │   └── contact.module.css
+│
+├── components/
+│   │   ├── Navbar/
+│   │   │    ├── Navbar.js
+│   │   │    └── Navbar.module.css
+│   │   ├── Footer/
+│   │   │    ├── Footer.js
+│   │   │    └── Footer.module.css
+│   │   ├── ProductCard/
+│   │   │    ├── ProductCard.js
+│   │   │    └── ProductCard.module.css
+├────────────────────────────────────────────────────────
+│   ├── layout.js
+│   ├── page.js
+│   ├── page.module.css         ← CSS for home page
+│   └── globals.css             ← Global and Bootstrap overrides
+│   └── 404.js                  ← Custom "Not Found" page
